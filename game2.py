@@ -16,6 +16,11 @@ class goblin:
 
 hero1 = hero(10, 5)
 goblin1 = goblin(6, 2)  
+
 print (goblin1.health)
 hero1.attack(goblin1)
 print(goblin1.health)
+
+print (hero1.health)
+goblin1.attack(hero1)
+print(hero1.health)
